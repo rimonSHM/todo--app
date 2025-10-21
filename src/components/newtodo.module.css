@@ -1,0 +1,177 @@
+/* .form {
+    width: 50%;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.from-field {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.from-field label {
+    flex-basis: 20%;
+}
+
+.from-field input {
+    flex-basis: 80%;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+
+.form-field textarea {
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+
+.form button {
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form button:hover {
+    background-color: pink;
+    color: white;
+} */
+
+
+.form {
+  width: 50%;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Fixed: changed .from-field → .form-field */
+.form-field {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.form-field label {
+  flex-basis: 20%;
+  font-weight: 500;
+}
+
+.form-field input,
+.form-field textarea {
+  flex-basis: 80%;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+  background-color: #555;
+  color: white;
+}
+
+.form-field textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: 2px solid pink;
+  background-color: #666;
+}
+
+.form button {
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 0.5rem 1rem;
+  background-color: pink;
+  color: #333;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #ff80aa;
+  color: white;
+}
+
+
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  margin: 2rem auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  background: #4f46e5;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+button:active {
+  transform: scale(0.98);
+} */
